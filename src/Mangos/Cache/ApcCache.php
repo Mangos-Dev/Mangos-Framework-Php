@@ -2,12 +2,12 @@
 /**
 * Mangos Encryption Class
 *
-* @package	      Mangos Core
-* @author             Team Dev
-* @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://mangos.fr/)
+* @package	      Mangos Framework
+* @author             Mangos Team Dev
+* @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
 */
 
-namespace Mangos\CoreBundle\Cache;
+namespace Mangos\Cache;
 
 class ApcCache implements CacheInterface
 {
