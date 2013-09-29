@@ -1,5 +1,5 @@
 {
-    "name": " mangos-dev/mangos-framework-php",
+    "name": "mangos-dev/mangos-framework-php",
     "type": "library",
     "description": "PHP Object Framework",
     "keywords": ["framework","mangos"],
