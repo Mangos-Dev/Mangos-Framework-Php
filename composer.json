@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Mangos": "src/"
+            "mangos-dev\\mangos-framework-php\\src\\Mangos": ""
         }
     }
 }
