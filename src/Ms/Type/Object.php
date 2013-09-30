@@ -1,8 +1,7 @@
 <?php
 
-class Object {
-    
-    
+class Object 
+{
     public function getRootClass()
     {
         return get_class();
