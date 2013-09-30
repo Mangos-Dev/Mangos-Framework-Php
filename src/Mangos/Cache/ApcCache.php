@@ -7,7 +7,7 @@
 * @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
 */
 
-namespace Ms\Cache;
+namespace Mangos\Cache;
 
 class ApcCache implements CacheInterface
 {
