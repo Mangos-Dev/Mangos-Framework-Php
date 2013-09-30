@@ -19,9 +19,8 @@
     },
     "autoload": {
         "psr-0": { 
-         "Mangos": "src/",
-         "": "src/", 
-         "Ms": "src/Mangos"
+         "Ms": "src/",
+         "": "src/"
      }
     }
 }

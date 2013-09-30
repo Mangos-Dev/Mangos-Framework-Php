@@ -8,7 +8,7 @@
 *
 */
 
-namespace Mangos\Cache;
+namespace Ms\Cache;
 
 interface CacheInterface 
 {
