@@ -9,7 +9,8 @@
 
 namespace Ms\Diagnostics;
 
-class StopWatch {
+class StopWatch 
+{
     
     /**
      * Elapsed Time

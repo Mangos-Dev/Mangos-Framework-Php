@@ -1,6 +1,13 @@
 <?php
+/**
+* Mangos Object Class
+*
+* @package	      Mangos Framework
+* @author             Mangos Team Dev
+* @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
+*/
 
-class Object 
+class Object
 {
     public function getRootClass()
     {

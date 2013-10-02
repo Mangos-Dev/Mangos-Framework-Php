@@ -1,16 +1,15 @@
 <?php
-
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
 /**
- * Description of CollectionInterface
- *
- * @author ibm-ibm
- */
-interface Collection extends IterableInterface
+* Mangos CollectionInterface Interface
+*
+* @package	      Mangos Framework
+* @author             Mangos Team Dev
+* @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
+*/
+
+namespace Ms\Type;
+
+interface CollectionInterface extends IterableInterface
 {
         public function add($object);
         public function addRange($collection);

@@ -9,8 +9,6 @@
 
 namespace Ms\Security;
 
-//use Mangos\CoreBundle\Config\Config as Conf;
-
 class Encryption
 {    
     /**
@@ -27,7 +25,7 @@ class Encryption
      */
     public function __construct($token) 
     {
-        $this->token = $token;  //Conf::$configSymfony['parameters']['secret'];
+        $this->token = $token;
     }
         
     /**
