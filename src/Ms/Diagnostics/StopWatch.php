@@ -11,7 +11,6 @@ namespace Ms\Diagnostics;
 
 class StopWatch 
 {
-    
     /**
      * Elapsed Time
      */
@@ -22,7 +21,8 @@ class StopWatch
     * 
     * @return	void 
     */
-    public function start() {
+    public function start() 
+    {
         $this->elapsed = microtime(true);
     }
    
@@ -31,23 +31,26 @@ class StopWatch
      * 
      * @return	void
      */
-    public function stop() {
+    public function stop() 
+    {
         $this->elapsed -= microtime(true);
     }
     
     /**
-    * Returns the time in seconds.
-    *
-    * @return The the time in seconds as float.
-    */
-    public function getElapsed() {
+     * Return the time in seconds.
+     * 
+     * @return The the time in seconds as float.
+     */
+    public function getElapsed() 
+    {
         return number_format(abs($this->elapsed), 5);
     }
     
     /**
      * Reset the stopwatch timing.
      */
-    public function reset() {
+    public function reset() 
+    {
         $this->elapsed = 0;
     }
 }

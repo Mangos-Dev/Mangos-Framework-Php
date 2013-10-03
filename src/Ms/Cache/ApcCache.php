@@ -9,6 +9,9 @@
 
 namespace Ms\Cache;
 
+/**
+ * Class Cache with Apc
+ */
 class ApcCache implements CacheInterface
 {
     /**
