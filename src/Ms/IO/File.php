@@ -29,17 +29,27 @@ class File
      * 
      */
     
-    public function create($filename)
+    public static function create($filename)
     {
         return fopen($filename, 'w+');
     }
     
-    public function append($filename, $content)
+    public static function readAllText($filename)
+    {
+        file_put_contents($filename);
+    }
+    
+    public static function append($filename, $content)
     {
         file_put_contents($filename, $content, FILE_APPEND);
     }
     
-    public function delete($filename)
+    public static function exist($filename)
+    {
+        file_exists($filename);
+    }
+    
+    public static function delete($filename)
     {
         unlink($filename);
     }
