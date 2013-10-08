@@ -7,6 +7,8 @@
 * @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
 */
 
+namespace Ms\IO;
+
 class Directory 
 {
     /*
