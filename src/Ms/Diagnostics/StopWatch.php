@@ -1,11 +1,11 @@
 <?php
 /**
-* Mangos StopWatch Class
-*
-* @package	      Mangos Framework
-* @author             Mangos Team Dev
-* @copyright          Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
-*/
+ * Mangos StopWatch Class
+ * 
+ * @package	      Mangos Framework
+ * @author            Mangos Team Dev
+ * @copyright         Copyright (c) 2013, Mangos.fr, Inc. (http://framework.mangos.fr/)
+ */
 
 namespace Ms\Diagnostics;
 
