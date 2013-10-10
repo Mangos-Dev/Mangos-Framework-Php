@@ -41,7 +41,7 @@ class File
     
     public static function append($filename, $content)
     {
-        file_put_contents($filename, $content, FILE_APPEND);
+        file_put_contents($filename, $content . '\r\n', FILE_APPEND);
     }
     
     public static function exist($filename)
