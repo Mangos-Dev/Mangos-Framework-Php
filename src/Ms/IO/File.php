@@ -39,12 +39,21 @@ class File
     
     public static function append($filename, $content)
     {
+        if(!$this->exist($filename))
+            $this->create($filename);
         file_put_contents($filename, $content . PHP_EOL, FILE_APPEND);
     }
     
+    /**
+     * Exit
+     * 
+     * @param type $filename
+     * 
+     * @return boolean
+     */
     public static function exist($filename)
     {
-        file_exists($filename);
+        return file_exists($filename);
     }
     
     public static function delete($filename)
