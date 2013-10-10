@@ -39,8 +39,9 @@ class File
     
     public static function append($filename, $content)
     {
-        if(!$this->exist($filename))
-            $this->create($filename);
+        if(!self::exist($filename))
+            self::create($filename);
+        
         file_put_contents($filename, $content . PHP_EOL, FILE_APPEND);
     }
     
