@@ -34,7 +34,7 @@ class File
     
     public static function readAllText($filename)
     {
-        file_put_contents($filename);
+        file_get_contents($filename);
     }
     
     public static function append($filename, $content)
