@@ -37,12 +37,15 @@ class File
         return file_get_contents($filename);
     }
     
-    public static function append($filename, $content)
+    public static function append($filename, $content, $endOfLine = true)
     {
         if(!self::exist($filename))
             self::create($filename);
         
-        file_put_contents($filename, $content . PHP_EOL, FILE_APPEND);
+        if(!$endOfLine)
+            $content += PHP_EOL;
+        
+        file_put_contents($filename, $content, FILE_APPEND);
     }
     
     /**
