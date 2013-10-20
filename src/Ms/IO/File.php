@@ -42,7 +42,7 @@ class File
         if(!self::exist($filename))
             self::create($filename);
         
-        if(!$endOfLine)
+        if($endOfLine)
             $content += PHP_EOL;
         
         file_put_contents($filename, $content, FILE_APPEND);
