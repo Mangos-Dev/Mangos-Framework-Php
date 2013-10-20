@@ -43,7 +43,7 @@ class File
             self::create($filename);
         
         if($endOfLine)
-            $content += PHP_EOL;
+            $content = $content . PHP_EOL;
         
         file_put_contents($filename, $content, FILE_APPEND);
     }
